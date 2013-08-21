@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+	<head>
+		<title>test HTML5</title>
+		<meta charset="UTF-8">
+		<meta name="Description" content="My first html5 page.">
+		<meta name="author" content="Duc" /> 
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="http://www.google.com.vn">googleVietNam</a></li>
+				<li><a href="http://vnexpress.net">vnexpress</a></li>
+				<li><a href="http://ngoisao.net">ngoisao</a></li>
+				<li><a href="http://www.jbhifi.com.au">jbhifi</a></li>
+			</ul>
+		</nav>
+		<header>
+			thien tai header
+		</header>
+		<article>
+			Ta la thien tai
+		</article>
+		<aside>
+			thien tai aside
+		</aside>
+		<figure>
+			<img src="img/img1.png" style="size: small; box-shadow: 4px 4px 5px #282b1f;" alt="image first" />
+			<figcaption>
+				<p style="text-shadow: 4px 4px 5px #282b1f; color: hsla(75, 58, 80, 1);">caption for image</p>
+			</figcaption>
+		</figure>
+		<details>
+			<summary>click here will collapse or expand the content</summary>
+			content whatever you type, just for example
+		</details>
+		<form>
+			<input id="input1" placeholder="your name, please"/>
+			<input id="input2" type="email" placeholder="email please" required="required"/>
+			<br/>
+			<input id="input3" type="range" name="player rating" min="1" max="5" />
+			<input id="inputt4" type="date" name="pick"/>
+			<input id="submit" type="submit" value="submit" />
+		</form>
+		
+		<canvas id="mycanvas" width="100" height="100">
+			Remember that providing fallback is nice
+			
+		</canvas>
+		<script>
+				window.addEventListener('load',function(){
+					var grabElement = document.getElementById('mycanvas');
+					if(grabElement && grabElement.getContext){
+						var context = grabElement.getContext('2d');
+						if(context){
+							context.fillStyle = '#000000';
+							context.fillRect(0,0,50,50);
+						}
+					}
+				})
+		</script>
+		<div itemscope itemtype="http://ngoisao.net">
+			<h1 itemprop="title">Your favourite movies</h1>
+			<p itemprop="summary">A summary of your favorite movie.</p>
+		</div>
+	</body>
+</HTML>
