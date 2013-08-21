@@ -5,29 +5,35 @@ body {
 .header {
 	background-color: rgb(255,255,255);
 	text-align:center;
-position: absolute;
-right: 0; 
-left: 0;
-}
-
-.header2 {
-	background-color: rgb(242,242,242);
-	text-align:center;
-    position: relative;
-    top: 150;
-    right: 0; 
-    left: 0;
-
-}
-.header3 {
-	background-color: rgb(242,242,242);
-	text-align:center;
 	position: relative;
-    top: 150;
-	right: 0; 
-    left: 0;
+	padding: 1em 0;
 }
 
+#subhead1 {
+	background-color: rgb(242,242,242);
+}
+#subhead2 {
+	background-color: rgb(230,230,230);
+}
+#subhead3 {
+	background-color: rgb(204,204,204);
+}
+#subhead4 {
+	background-color: rgb(179,179,179);
+}
+#subhead5 {
+	background-color: rgb(128,128,128);
+}
+#subhead6 {
+	background-color: rgb(102,102,102);
+}
+#subhead7 {
+	background-color: rgb(77,77,77);
+}
+
+#imgprofile {
+	
+}
 
 .imgheader {
 	background: url("./img/img1.png");
