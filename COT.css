@@ -5,17 +5,16 @@ body {
 .header {
 	background-color: rgb(255,255,255);
 	text-align:center;
-padding-top: 10px;
-padding-bottom: 70px;
-
+position: absolute;
+right: 0; 
+left: 0;
 }
 
 .header2 {
 	background-color: rgb(242,242,242);
 	text-align:center;
-	padding-top: 10px;
-	padding-bottom: 20px;
-    position: absolute;
+    position: relative;
+    top: 150;
     right: 0; 
     left: 0;
 
@@ -23,10 +22,9 @@ padding-bottom: 70px;
 .header3 {
 	background-color: rgb(242,242,242);
 	text-align:center;
-	padding-top: 10px;
-	padding-bottom: 20px;
-    position: absolute;
-    right: 0; 
+	position: relative;
+    top: 150;
+	right: 0; 
     left: 0;
 }
 
