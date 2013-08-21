@@ -3,11 +3,33 @@ body {
 }
 
 .header {
+	background-color: rgb(255,255,255);
+	text-align:center;
+padding-top: 10px;
+padding-bottom: 70px;
+
+}
+
+.header2 {
 	background-color: rgb(242,242,242);
 	text-align:center;
 	padding-top: 10px;
-	padding-bottom: 70px;
+	padding-bottom: 20px;
+    position: absolute;
+    right: 0; 
+    left: 0;
+
 }
+.header3 {
+	background-color: rgb(242,242,242);
+	text-align:center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+    position: absolute;
+    right: 0; 
+    left: 0;
+}
+
 
 .imgheader {
 	background: url("./img/img1.png");
